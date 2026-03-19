@@ -8,18 +8,18 @@ public:
     }
 
     virtual void show() {
-        cout << "Base Show\n";
+        cout << "Base Show";
     }
 };
 
 class Derived : public Base {
 public:
     Derived() {
-        cout << "Derived Constructor\n";
+        cout << "Derived Constructor";
     }
 
     void show() {
-        cout << "Derived Show\n";
+        cout << "Derived Show";
     }
 };
 
