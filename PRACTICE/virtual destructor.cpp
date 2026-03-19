@@ -4,14 +4,14 @@ using namespace std;
 class Base {
 public:
     ~Base() {
-        cout << "Base Destructor\n";
+        cout << "Base Destructor";
     }
 };
 
 class Derived : public Base {
 public:
     ~Derived() {
-        cout << "Derived Destructor\n";
+        cout << "Derived Destructor";
     }
 };
 
