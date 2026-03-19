@@ -14,7 +14,7 @@ public:
 
 class Derived : public Base {
 public:
-    void show(int x) {   // different parameter
+    void show(int x) {   
         cout << "Derived show " << x << endl;
     }
 
@@ -26,7 +26,5 @@ public:
 int main() {
     Derived d;
     d.display();
-
-    // d.show(); ? ERROR
     d.show(10);
 }
