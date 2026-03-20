@@ -1,12 +1,10 @@
 #include<iostream>
 using namespace std;
-
 class Base {
 public:
     Base() {
         cout <<"Base Constructor\n";
     }
-
     virtual void show() {
         cout <<"Base Show\n";
     }
