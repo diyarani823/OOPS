@@ -12,7 +12,6 @@ public:
         cout << "Derived Destructor";
     }
 };
-
 int main() {
     Base* b = new Derived();
     delete b;
