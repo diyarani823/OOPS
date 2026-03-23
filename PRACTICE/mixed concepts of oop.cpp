@@ -13,26 +13,20 @@ public:
         cout <<"Base Destructor\n";
     }
 };
-
 class Derived : public Base {
 public:
     Derived() {
         cout <<"Derived Constructor\n";
     }
-
     void show() {
         cout << "Derived Show\n";
     }
-
     ~Derived() {
         cout << "Derived Destructor\n";
     }
 };
-
 int main() {
     Base* b = new Derived();
-
     b->show();
-
     delete b;
 }
