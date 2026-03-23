@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 class Base {
 public:
     virtual void show() {
@@ -20,7 +19,6 @@ public:
         cout << "Derived display\n";
     }
 };
-
 int main() {
     Derived d;
     d.display();
