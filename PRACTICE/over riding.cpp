@@ -11,6 +11,7 @@ public:
 class circle : public shape{
 public:
     void area(){
+    	
         cout<<"Area of circle"<<endl;
     }
 };
