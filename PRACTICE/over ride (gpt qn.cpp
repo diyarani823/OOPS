@@ -13,6 +13,7 @@ class rectangle:public shape {
 		}
 };
 int main()
+
 {
 shape s;
 s.area();
