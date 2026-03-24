@@ -51,6 +51,7 @@ class calculator{
 			}	
 };
 int main()
+
 {
 	calculator c;
 	c.display();
