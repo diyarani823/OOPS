@@ -7,7 +7,6 @@ public:
         cout<<"Area of shape"<<endl;
     }
 };
-
 class circle : public shape{
 public:
     void area(){
@@ -15,7 +14,6 @@ public:
         cout<<"Area of circle"<<endl;
     }
 };
-
 int main()
 {
     circle c;
