@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 class calculator{
+	
 	private:
 	int num1;
 	int	num2;
@@ -51,7 +52,6 @@ class calculator{
 			}	
 };
 int main()
-
 {
 	calculator c;
 	c.display();
