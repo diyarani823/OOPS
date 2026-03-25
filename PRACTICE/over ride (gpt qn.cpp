@@ -6,7 +6,6 @@ class shape{
 		cout<<"area of the shape";
 		}
 };
-
 class rectangle:public shape {
 	public:
 		void area() override{
@@ -14,7 +13,6 @@ class rectangle:public shape {
 		}
 };
 int main()
-
 {
 shape s;
 s.area();
