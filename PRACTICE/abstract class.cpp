@@ -9,9 +9,12 @@ class circle:public shape{
 		void hi(){
 		cout<<"im circle";
 		}
+		
 };
 int main()
 {
+	
 	circle c1;
 	c1.hi();
+	
 }
