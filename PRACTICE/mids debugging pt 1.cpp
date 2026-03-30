@@ -26,7 +26,7 @@ public:
 
 int main() {
     Derived derivedObj;
-    derivedObj.setProtectedVar(10);
-    cout << derivedObj.getProtectedVar();
+   // cout<<derivedObj.setProtectedVar(10); (cannot be accessed since they are protected)
+   // cout << derivedObj.getProtectedVar();
     derivedObj.printProtectedVar();
 }
